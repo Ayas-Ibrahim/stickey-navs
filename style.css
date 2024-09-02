@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: #ffff;
+    height: 200vh;
+}
+nav{
+    position: fixed;
+ 
+    box-shadow: 0 0 10px whitesmoke;
+   
+}
+
+nav.sticky{
+    background-color: #353b48;
+    color:black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(15%);
+    box-shadow: none;
+    transition: all linear  0.5s;
+}
+#bannar{
+    height:100vh;
+    
+}
+#input::placeholder{
+    color: red;
+    font-weight: 600;
+}
+.result{
+    font-size: 18px;
+    color: black;
+    background-color: #7f8c8d;
+}
